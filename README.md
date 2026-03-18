@@ -26,7 +26,7 @@ sudo pacman -Syu python git base-devel
 git clone https://github.com/kullanici/AUR-STORE.git
 cd AUR-STORE
 
-### 3. Sanal Ortam Oluşturun
+### 3. Sanal Ortam Oluşturun (Venv klasörü yoksa Çalıştırın)
 python -m venv venv
 
 # Fish shell için
@@ -38,19 +38,7 @@ source venv/bin/activate
 # Bağımlılıkları yükle
 pip install -r requirements.txt
 
-
-python arch_store/main.py
-
-2. Proje Dosyalarını İndirin
-```bash
-git clone https://github.com/kullanici/AUR-STORE.git
-cd AUR-STORE
-
-3. Sanal Ortam Oluşturun
-```bash
-python -m venv venv
-
-4. Sanal Ortamı Aktif Edin ve Bağımlılıkları Yükleyin
+### 4. Sanal Ortamı Aktif Edin ve Bağımlılıkları Yükleyin
 ```bash
 # Fish shell için
 source venv/bin/activate.fish
@@ -59,11 +47,11 @@ source venv/bin/activate
 # Bağımlılıkları yükle
 pip install -r requirements.txt
 
-5. Uygulamayı Çalıştırın
+### 5. Uygulamayı Çalıştırın
 ```bash
 python arch_store/main.py
 
-Alternatif olarak:
+### Alternatif olarak:
 ```bash
 ./venv/bin/python arch_store/main.py
 
