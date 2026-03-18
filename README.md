@@ -1,4 +1,4 @@
-# 🏬 AUR STORE
+# 🏬 AYASCELL - AUR STORE
 
 Arch Linux için basit ve kullanıcı dostu bir yazılım mağazası.  
 PyQt6 arayüzü ile paket arama, yükleme, güncelleme ve silme işlemlerini kolayca yapabilirsiniz.
