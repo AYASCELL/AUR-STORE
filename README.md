@@ -23,7 +23,7 @@ sudo pacman -Syu python git base-devel
 ```
 ### 2. Proje Dosyalarını İndirin
 ```bash
-git clone https://github.com/kullanici/AUR-STORE.git
+git clone https://github.com/AYASCELL/AUR-STORE.git
 cd AUR-STORE
 
 ```
